@@ -1,0 +1,16 @@
+{
+  "name" : "Thrasher",
+  "version" : "1.0",
+  "description" : "BrowsingData API: Basics by Google with minors changes.",
+  "icons": {  "16": "icon16.png",
+              "48": "icon48.png",
+              "128": "icon128.png" },
+  "permissions": [
+    "browsingData"
+  ],
+  "browser_action": {
+     "default_icon": "icon.png",
+     "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
